@@ -10,6 +10,10 @@
   },
   "author": "",
   "license": "MIT",
+  "dependencies": {
+    "@cheep/transport": "^1.0.0",
+    "@cheep/transport-rabbitmq": "^1.0.0"
+  },
   "devDependencies": {
     "@types/node": "14.14.35",
     "ts-node": "9.1.1",

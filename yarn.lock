@@ -2,6 +2,16 @@
 # yarn lockfile v1
 
 
+"@cheep/transport-rabbitmq@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@cheep/transport-rabbitmq/-/transport-rabbitmq-1.0.0.tgz#9d07e9c9f702c68e505ec2b37231b8d015afdd2e"
+  integrity sha512-Ia84D0SLQDkg1JEh38vum0uhS/gksa5xBqI6giyd2AXTNEpRvmZWu+YilR53DQOrVJ71GuN34APi92kovoel7Q==
+
+"@cheep/transport@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@cheep/transport/-/transport-1.0.0.tgz#fb2f350549b33c7fda26c9cc2a5e64954983563d"
+  integrity sha512-ouFf5qQdpaBx4oUGTb1MRlPgrQdjfH5q0dvM3evaPHH9s43uiaL119elZOLnMDiSl/Pg9PuDzItvFtDpWRMvMA==
+
 "@types/node@14.14.35":
   version "14.14.35"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.35.tgz#42c953a4e2b18ab931f72477e7012172f4ffa313"
