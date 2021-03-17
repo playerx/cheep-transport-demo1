@@ -20,9 +20,18 @@ async function run() {
   // })
 
   handler.on(
-    x => x.User.login,
-    (_, payload) => {
-      return payload.username === payload.password
+    x => x.Command.User.login,
+    async (api, payload) => {
+      const isSuccess = payload.username === payload.password
+
+      if (isSuccess) {
+        await api.publish.Event.User.loggedIn({
+          username: payload.username,
+          timestamp: new Date(),
+        })
+      }
+
+      return isSuccess
     },
   )
 
@@ -36,7 +45,7 @@ async function run() {
   //   },
   // })
 
-  const result = await api.execute.User.login({
+  const result = await api.execute.Command.User.login({
     username: 'Me',
     password: 'Me',
   })
