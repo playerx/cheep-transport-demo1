@@ -11,8 +11,12 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@cheep/transport": "^1.0.0",
-    "@cheep/transport-rabbitmq": "^1.0.0",
+    "@cheep/transport": "^1.0.1",
+    "@cheep/transport-nats": "^0.1.1",
+    "@cheep/transport-rabbitmq": "^1.0.2",
+    "amqp-connection-manager": "3.2.2",
+    "amqplib": "0.7.1",
+    "nats": "2.0.0",
     "tslib": "2.1.0"
   },
   "devDependencies": {
