@@ -2,20 +2,20 @@
 # yarn lockfile v1
 
 
-"@cheep/transport-nats@^0.1.1":
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/@cheep/transport-nats/-/transport-nats-0.1.1.tgz#884ab7f8fa0a0ba78fd82c9f19fa63e3982c0445"
-  integrity sha512-D2fVS7oA/Ci+m37vvFyioyH+WMJ1FiRJFnCJuNFFwJl2/SB/fd7IpFHJ0jyMWben6HXlr8ep1XrJkFvK1j7/qQ==
+"@cheep/transport-nats@^0.1.4":
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/@cheep/transport-nats/-/transport-nats-0.1.4.tgz#668fe3844305c32323b8ffad515ffe1e6aab42f0"
+  integrity sha512-MJYD6AMDqBaiZsRGUPl3B0bR6+Rwo/XPWhahtvRbBe3K6mnJovkvVuklMb4VR6qbbpw5YUQEd1dGEYiYh4xuOg==
 
-"@cheep/transport-rabbitmq@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@cheep/transport-rabbitmq/-/transport-rabbitmq-1.0.2.tgz#a1da6cf529521d52032b46002bc012136a330478"
-  integrity sha512-x3k9om7dYU5GZnaSl4mbcYOap5R1K+JPfmQeomib5D1gQsaPoN6lOqDbOJFU381ReYBBcTQntcPbm8qlry9ZEw==
+"@cheep/transport-rabbitmq@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@cheep/transport-rabbitmq/-/transport-rabbitmq-1.0.5.tgz#0ab62f0909fe5d90c9b52ada59fee8b05c245965"
+  integrity sha512-D649WUwAYz3Dl+XgvX9NkRgGtqeP05zBTY7WfcGpn4ryoH6dagRqsgaKP8w6gSfDy0efk2TkzQ1sufIbQcH3/A==
 
-"@cheep/transport@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@cheep/transport/-/transport-1.0.1.tgz#7d41ec06a31e69c6343781737ddc04568fef50bb"
-  integrity sha512-/Ijb0q0v8rSKHHRIgcvv/l35UYvkj5GwNEtiRIdX2pMFJu/uAYvRB0XcZYW6zDTL0sgiZVU5wBd50tWj3LFM4Q==
+"@cheep/transport@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@cheep/transport/-/transport-1.0.5.tgz#d60aa1274128231452d8a5a2bf605516a16974a6"
+  integrity sha512-sW090t7/A0b6T4QPc5FGHKBWwduYaU3nSg1NwEIpeZkFWZqj93NT2CvxS67LNjshewzRpGr9E0YQoo+mwyhKSg==
 
 "@types/node@14.14.35", "@types/node@^14.0.26":
   version "14.14.35"
